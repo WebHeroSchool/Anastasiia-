@@ -4,29 +4,28 @@ body{
 .wrapper{
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
-.main-content__title {
+.main-content__title{
   font-family:'Roboto', sans-serif;
 }
-.header {
-  border: dashed 1px red;
+.header{
   display:flex;
   justify-content:space-between;
 }
 .logo{
-  padding:40px 0;
+  padding: 40px 0;
+  font-family: pt_serif, arial, helvetica, sans-serif;
 }
 .menu{
   display:flex;
   align-items:center;
 }
 .menu__item{
-  padding: 0,13px;
-  border:dashed 1px red;
+  padding: 013px;
 }
-.menu__item:last-chaild{
-  padding: 0;
+.menu__item:last-child{
+  padding-right: 0;
 }
+
 
 
